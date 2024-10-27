@@ -1,7 +1,8 @@
 *{
     /* background-color: black; */
     display: flex;
-    
+    width: auto;
+    height: auto;
 }
 .title{
     position: absolute;
