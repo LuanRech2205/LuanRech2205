@@ -16,10 +16,11 @@
     vertical-align: middle;
     vertical-align: center;
     position: absolute;
-    margin-top: 130px;
+    margin-top: 60px;
     left: 900px;
     right: 100px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
 }
 .nav-list{
     position:relative;
@@ -44,6 +45,7 @@
     background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 12px;
+    z-index: 2;
 }
 .nav-item-figma{
     position: absolute;
@@ -54,6 +56,7 @@
     background-color: #000000;
     color: white;
     border-radius: 12px;
+    z-index: 2;
 }
 .nav-item-mysql{
     position: absolute;
@@ -64,24 +67,27 @@
     color: white;
     border-radius: 15px;
     width: 165px;
+    z-index: 2;
 }
 .quadrado{
     height:350px;
     width: 1800px;
-    background-color: aqua;
+    background-color: aliceblue;;;
     position: absolute;
     margin-top: 15px;
     left: 30px;
+    border-radius: 25px;
+    border: 3px solid black;
 }
 .img1{
     width: 500px;
     border: 2px solid black;
-    height: 40vh;
+    height: 33vh;
     margin-top: 450px;
     position: absolute;
     left: 20px;
     border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: aliceblue;
 }
 .img2{
     position: absolute;
@@ -90,7 +96,7 @@
     width: 500px;
     margin-top: 450px;
     left: 610px;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color:aliceblue;;
     border-radius: 25px;
 }
 .img3{
@@ -100,7 +106,7 @@
     height: 250px;
     margin-top: 450px;
     left: 1200px;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: aliceblue;;
     border-radius: 25px;
 }
 .titulo1{
@@ -132,10 +138,59 @@
 
 }
 body {
-    background-color: rgba(145, 145, 145, 0.555); /* Muda a cor de fundo para azul claro */
-    color: #000000; /* Cor do texto */
-    font-family: Arial, sans-serif; /* Fonte do texto */
+    background-color: rgb(28, 74, 92); 
+    color: #000000; 
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
     
+}
+.img4{
+    width: 198px;
+    height: 250px;
+    position: absolute;
+    z-index: 2;
+    left: 650px;
+    margin-top: 70px;
+    /* border-radius: 30%; */
+    border: 2px solid black;
+}
+.icon1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 250px;
+    left: 585px;
+}
+.instagram{
+    position: absolute;
+    margin-top: 40px;
+    left: -15px;
+
+}
+.icon2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 160px;
+    left: 580px;
+}
+.linkedin{
+    position: absolute;
+    margin-top: 50px;
+    left: -15;
+}
+.gif1{
+    position:absolute;
+    width: 220px;
+    height: 220px;
+    margin-top: 75px;
+    left: 33px;
+}
+.gif2{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 1676px;
+    margin-top: 75px;    
 }
